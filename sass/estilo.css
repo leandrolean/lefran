@@ -1,1 +1,62 @@
-/*# sourceMappingURL=estilo.css.map */
+.body {
+  position: relative;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.body .container-fluid {
+  background-color: rgb(0, 0, 0);
+  padding: 1vh;
+}
+.body .container-fluid .navbar-brand {
+  color: white;
+}
+.body .container-fluid .navbar-brand:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 45px rgb(32, 145, 250);
+  border-radius: 20px;
+  transition: 0.5;
+  padding: 0.5vh;
+}
+.body .container-fluid .nav-link.active {
+  color: white;
+}
+.body .container-fluid .nav-link {
+  color: white;
+}
+.body .container-fluid .nav-link:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 45px rgb(32, 145, 250);
+  border-radius: 20px;
+  transition: 0.5;
+}
+.body .container-fluid .navbar-toggler-icon {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 1px 1px 20px rgb(32, 145, 250);
+  border-radius: 10px;
+}
+
+.galeria {
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vh;
+  justify-content: center;
+}
+.galeria .card {
+  box-shadow: 1px 1px 45px rgba(2, 255, 221, 0.849);
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.destacados {
+  margin: 2vh;
+  display: inline-block;
+  color: white;
+  text-shadow: 1px 1px 20px rgba(2, 255, 221, 0.849);
+}/*# sourceMappingURL=estilo.css.map */
