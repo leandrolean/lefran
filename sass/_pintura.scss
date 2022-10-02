@@ -1,9 +1,12 @@
-.galeria{
+.galeria2{
     display: flex;
     flex-wrap: wrap ;
-    gap: 4vh;
+    gap: 10vh;
     justify-content: center;
-    
+    position: absolute;
+    top: 30vh;
+    left: 25vh;
+
     .card{
         box-shadow: 1px 1px 45px rgba(2, 255, 221, 0.849);
         background-color: rgba(0, 0, 0, 0.541);
