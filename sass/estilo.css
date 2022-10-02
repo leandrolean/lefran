@@ -44,6 +44,7 @@
   flex-wrap: wrap;
   gap: 4vh;
   justify-content: center;
+  top: 20vh;
 }
 .galeria .card {
   box-shadow: 1px 1px 45px rgba(2, 255, 221, 0.849);
@@ -57,4 +58,32 @@
   display: flex;
   color: white;
   text-shadow: 5px 0px 20px rgb(2, 255, 221);
+}
+
+/*pinturas*/
+.titulopintura {
+  text-transform: capitalize;
+  margin: 2vh;
+  display: flex;
+  color: white;
+  text-shadow: 5px 0px 20px rgb(2, 255, 221);
+}
+
+/*footer*/
+.footer1 {
+  display: flex;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-size: 2vh;
+  text-transform: capitalize;
+  margin: 2vh;
+  display: flex;
+  color: white;
+  text-shadow: 5px 0px 20px rgb(2, 255, 221);
+  border: 1.5px solid white;
+  border-radius: 20px;
+  padding: 1vh;
+  text-align: center;
+  float: right;
 }/*# sourceMappingURL=estilo.css.map */
