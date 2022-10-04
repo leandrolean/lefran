@@ -79,22 +79,18 @@
 
 .footer2 {
   display: flex;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
   font-size: 2vh;
   text-transform: capitalize;
-  margin: 2vh;
-  display: flex;
   color: white;
   text-shadow: 5px 0px 20px rgb(2, 255, 221);
   border: 1.5px solid white;
   border-radius: 20px;
   padding: 1vh;
-  text-align: center;
-  position: relative;
-  top: 50vh;
-  left: 50vh;
+  width: 35vh;
+  position: absolute;
+  bottom: 3%;
+  margin: 1vh auto;
+  left: 40%;
 }
 
 /*footer*/
@@ -133,20 +129,55 @@
   border: 2px solid rgb(255, 255, 255);
 }
 
-@media (max-width: 768vh) {
+.footer2 {
+  display: flex;
+  font-size: 2vh;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 5px 0px 20px rgb(2, 255, 221);
+  border: 1.5px solid white;
+  border-radius: 20px;
+  padding: 1vh;
+  width: 35vh;
+  position: absolute;
+  bottom: 3%;
+  margin: 1vh auto;
+  left: 40%;
+}
+
+@media (max-width: 1410px) {
+  .footer2 {
+    top: 135vh;
+    height: 5vh;
+    left: 40vh;
+  }
+}
+@media (max-width: 768px) {
   .galeria2 {
     left: 5vh;
   }
 }
-@media (max-width: 1455px) {
-  .footer2 {
-    top: 140vh;
-  }
-}
-@media (max-width: 705px) {
+@media (max-width: 663px) {
   .footer2 {
     top: 240vh;
-    left: 10vh;
+    left: 20vh;
     font-size: 1.5vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 485px) {
+  .footer2 {
+    left: 13vh;
+  }
+}
+@media (max-width: 430px) {
+  .footer2 {
+    left: 10vh;
+  }
+}
+@media (max-width: 370px) {
+  .footer2 {
+    left: 6vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
