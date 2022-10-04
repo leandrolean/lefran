@@ -1,11 +1,11 @@
 .galeria2{
+    z-index: -1;
     display: flex;
     flex-wrap: wrap ;
     gap: 10vh;
     justify-content: center;
-    position: absolute;
-    top: 30vh;
-    left: 20vh;
+    position: relative;
+    top: 20vh;
 
     .card{
         box-shadow: 1px 1px 45px rgba(2, 255, 221, 0.849);
