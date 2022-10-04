@@ -149,35 +149,44 @@
   .footer2 {
     top: 135vh;
     height: 5vh;
-    left: 40vh;
-  }
-}
-@media (max-width: 768px) {
-  .galeria2 {
-    left: 5vh;
+    bottom: 3%;
+    margin: 1vh auto;
+    left: 40%;
   }
 }
 @media (max-width: 663px) {
   .footer2 {
-    top: 240vh;
-    left: 20vh;
-    font-size: 1.5vh;
-    justify-content: center;
-    align-items: center;
+    top: 245vh;
+    height: 5vh;
+    bottom: 3%;
+    margin: 1vh auto;
+    left: 25%;
   }
 }
-@media (max-width: 485px) {
+@media (max-width: 600px) {
   .footer2 {
-    left: 13vh;
+    top: 245vh;
+    height: 5vh;
+    bottom: 3%;
+    margin: 1vh auto;
+    left: 20%;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   .footer2 {
-    left: 10vh;
+    top: 245vh;
+    height: 5vh;
+    bottom: 3%;
+    margin: 1vh auto;
+    left: 15%;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 438px) {
   .footer2 {
-    left: 6vh;
+    top: 245vh;
+    height: 5vh;
+    bottom: 3%;
+    margin: 1vh auto;
+    left: 10%;
   }
 }/*# sourceMappingURL=estilo.css.map */
