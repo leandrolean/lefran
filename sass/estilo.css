@@ -77,22 +77,6 @@
   text-shadow: 5px 0px 20px rgb(2, 255, 221);
 }
 
-.footer2 {
-  display: flex;
-  font-size: 2vh;
-  text-transform: capitalize;
-  color: white;
-  text-shadow: 5px 0px 20px rgb(2, 255, 221);
-  border: 1.5px solid white;
-  border-radius: 20px;
-  padding: 1vh;
-  width: 35vh;
-  position: absolute;
-  bottom: 3%;
-  margin: 1vh auto;
-  left: 40%;
-}
-
 /*footer*/
 .footer1 {
   display: flex;
@@ -175,7 +159,6 @@
   .footer2 {
     top: 245vh;
     height: 5vh;
-    justify-content: center;
-    align-items: center;
+    left: 6vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
